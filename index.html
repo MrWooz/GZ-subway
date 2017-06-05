@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/subway.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+</head>
+<body>
+<div class="sub-card">
+    <!--地铁头部部分-->
+    <div class="op-subway-head">
+        <img src="image/logo.gif" alt="">
+        <h2>——广州地铁票价查询</h2>
+    </div>
+    <!--地铁内容及弹出部分-->
+    <div class="op-subway-bord">
+        <div class="op-subway-main">
+            <div class="op-subway-box op-subway-box-start">
+                <div class="op-subway-line op-subway-hierarchy"><em>起始站</em>
+                    <span class="op-subway-k"></span>
+                    <ul class="op-subway-ul"></ul>
+                </div>
+                <p class="op-subway-jg">-</p>
+
+                <div class="op-subway-station op-subway-hierarchy "><span
+                        class="op-subway-k"></span><em class="op-subway-hierarchy-start">选择车站</em>
+                    <ul class="op-subway-ulk"></ul>
+                </div>
+            </div>
+            <div class="op-subway-box op-subway-box-end">
+                <div class="op-subway-line"><em>终点站</em> <span class="op-subway-k"></span>
+                    <ul class="op-subway-ul"></ul>
+                </div>
+                <p class="op-subway-jg">-</p>
+
+                <div class="op-subway-station op-subway-station-end"><em>选择车站</em> <span
+                        class="op-subway-k"></span>
+                    <ul class="op-subway-ulk"></ul>
+                </div>
+            </div>
+            <div class="op-subway-clearfix"><span class="op-subway-calc-false">开始查询</span>
+                <!--详情边框-->
+                <span class="op-subway-ts"></span></div>
+            <div class="op-subway-tab">
+                <ul>
+                    <li class="op-subway-li op-subway-on">收费标准如下</li>
+                </ul>
+            </div>
+        </div>
+        <div class="op-subway-footer">
+            <div class="op-subway-content op-subway-content2">
+                <div class="op-subway-text"><p class="op-subway-title">
+                    详情：起步4公里内每人次2元，4-12公里范围内每递增4公里加1元，12-24公里范围内每递增6公里加1元，24公里以上每递增8公里加1元，票价不封顶。（广州市发改委）</p>
+
+                    <div class="op-subway-fareinfo"><p
+                            class="op-subway-p op-subway-spacing">
+                    </p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/Dijkstra.js"></script>
+<script src="js/subway.js"></script>
+</body>
+</html>
